@@ -12,10 +12,10 @@ namespace Mod3Ex3D
             // user starts program
             //user presented with 4 possible actions (main menu)
          Console.WriteLine("MAIN MENU");
-         Console.WriteLine("____________________________________________");
+         Console.WriteLine("____________________________________________\n");
          Console.WriteLine("Please make a choice from the following list and hit enter");
          Console.WriteLine("1)Check Balances, 2)View Account, 3)Enter Transaction, 4)View Reports, 5)Exit");
-
+            Console.Read();
             //1)check balances
             //2)view account
             //3)enter Transaction
