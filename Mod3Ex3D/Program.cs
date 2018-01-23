@@ -11,6 +11,23 @@ namespace Mod3Ex3D
             {
                 displayMenu();
                 selection = readInt();
+
+                switch (selection)
+                {
+                    case 1:
+                        Console.WriteLine("Case 1");
+                        break;
+                    case 2:
+                        Console.WriteLine("Case 2");
+                        break;
+                    case 3:
+                        Console.WriteLine("Case 3");
+                        break;
+                    case 4:
+                        Console.WriteLine("Case 4");
+                        break;
+                }
+                
             }
 
             while (selection != 5);
