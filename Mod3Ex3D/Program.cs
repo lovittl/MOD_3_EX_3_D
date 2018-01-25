@@ -16,19 +16,19 @@ namespace Mod3Ex3D
                 {
                     case 1:
                         //send control to method checkBalances()
-                        checkBalances();
+                        CheckBalances();
                         break;
                     case 2:
                         //send control to method viewAccount()
-                        viewAccount();
+                        ViewAccount();
                         break;
                     case 3:
                         //send control to method enterTransaction()
-                        enterTransaction();
+                        EnterTransaction();
                         break;
                     case 4:
                         //send control to method viewReports()
-                        viewReports();
+                        ViewReports();
                         break;
                 }
                 
@@ -48,22 +48,22 @@ namespace Mod3Ex3D
 
         }
 
-        private static void checkBalances()
+        private static void CheckBalances()
         {
             Console.WriteLine("Case 1");
         }
 
-        private static void viewAccount()
+        private static void ViewAccount()
         {
             Console.WriteLine("Case 2");
         }
 
-        private static void enterTransaction()
+        private static void EnterTransaction()
         {
             Console.WriteLine("Case 3");
         }
 
-        private static void viewReports()
+        private static void ViewReports()
         {
             Console.WriteLine("Case 4");
         }
