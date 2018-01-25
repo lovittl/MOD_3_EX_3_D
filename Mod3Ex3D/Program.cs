@@ -100,14 +100,6 @@ namespace Mod3Ex3D
         //Console.WriteLine = int.parse(Console.Read("cats"));
 
         //Console.WriteLine("Hello World!");
-
-
-
-
-
-
-
-
     }
 }
 
