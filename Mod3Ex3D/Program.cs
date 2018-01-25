@@ -15,16 +15,20 @@ namespace Mod3Ex3D
                 switch (selection)
                 {
                     case 1:
-                        Console.WriteLine("Case 1");
+                        //send control to method checkBalances()
+                        checkBalances();
                         break;
                     case 2:
-                        Console.WriteLine("Case 2");
+                        //send control to method viewAccount()
+                        viewAccount();
                         break;
                     case 3:
-                        Console.WriteLine("Case 3");
+                        //send control to method enterTransaction()
+                        enterTransaction();
                         break;
                     case 4:
-                        Console.WriteLine("Case 4");
+                        //send control to method viewReports()
+                        viewReports();
                         break;
                 }
                 
@@ -44,6 +48,26 @@ namespace Mod3Ex3D
 
         }
 
+        private static void checkBalances()
+        {
+            Console.WriteLine("Case 1");
+        }
+
+        private static void viewAccount()
+        {
+            Console.WriteLine("Case 2");
+        }
+
+        private static void enterTransaction()
+        {
+            Console.WriteLine("Case 3");
+        }
+
+        private static void viewReports()
+        {
+            Console.WriteLine("Case 4");
+        }
+        
         private static int readInt()
         {
             return int.Parse(Console.ReadLine());
