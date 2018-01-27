@@ -9,8 +9,8 @@ namespace Mod3Ex3D
             int selection = 0;
             do
             {
-                displayMenu();
-                selection = readInt();
+                DisplayMenu();
+                selection = ReadInt();
 
                 switch (selection)
                 {
@@ -67,11 +67,28 @@ namespace Mod3Ex3D
         {
             Console.WriteLine("Case 4");
         }
-        
-        private static int readInt()
-        {
-            return int.Parse(Console.ReadLine());
 
+        private static int ReadInt()
+        {
+            var validInput = false;
+            int val = 0;
+
+
+            do
+            {
+                try
+                {
+                    val = int.Parse(Console.ReadLine());
+                    validInput = true;
+                }
+                catch (FormatException)
+                {
+                    Console.Write("Invalid selection. ");
+                }
+            }
+            while (!validInput);
+
+            return val;
         }
 
 
