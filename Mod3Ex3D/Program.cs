@@ -73,7 +73,6 @@ namespace Mod3Ex3D
             var validInput = false;
             int val = 0;
 
-
             do
             {
                 try
@@ -83,7 +82,7 @@ namespace Mod3Ex3D
                 }
                 catch (FormatException)
                 {
-                    Console.Write("Invalid selection. ");
+                    Console.WriteLine("Invalid selection. Try Again");
                 }
             }
             while (!validInput);
