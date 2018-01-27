@@ -38,7 +38,7 @@ namespace Mod3Ex3D
 
         }
 
-        private static void displayMenu()
+        private static void DisplayMenu()
         {
 
             Console.WriteLine("MAIN MENU");
