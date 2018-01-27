@@ -10,7 +10,7 @@ namespace Mod3Ex3D
             do
             {
                 displayMenu();
-                selection = readInt();
+                selection = ReadInt();
 
                 switch (selection)
                 {
@@ -31,7 +31,7 @@ namespace Mod3Ex3D
                         viewReports();
                         break;
                 }
-                
+
             }
 
             while (selection != 5);
@@ -67,14 +67,33 @@ namespace Mod3Ex3D
         {
             Console.WriteLine("Case 4");
         }
-        
-        private static int readInt()
+
+
+        private static int ReadInt()
         {
-            return int.Parse(Console.ReadLine());
+            var validInput = false;
+            int val = 0;
 
+
+            do
+            {
+                try
+                {
+                    val = int.Parse(Console.ReadLine());
+                    validInput = true;
+                }
+                catch (FormatException)
+                {
+                    Console.Write("Invalid selection. ");
+                }
+            }
+            while (!validInput);
+            
+            return val;
         }
+    }
 
-
+}
 
 
 
@@ -130,9 +149,5 @@ namespace Mod3Ex3D
 
 
 
-
-
-    }
-}
 
 
