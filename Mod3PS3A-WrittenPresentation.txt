@@ -23,7 +23,7 @@ Menu items:
 ## Program execution
 
 As the program starts the user is presented with a Windows command line Console Window with Main Menu
-instructions to make a choice from the above 5 options. 
+instructions and a list of choices from Menu Items listed above. 
 
 code execution begins in the first line of the Main Methond after the opening curly brace.
 the integer variable selection is initialized and assigned a value of 0.

@@ -54,22 +54,27 @@ namespace Mod3Ex3D
         //Methods to build out with logic and sql queries to return information
         private static void CheckBalances()
         {
-            Console.WriteLine("Case 1");
+            Console.WriteLine("When implemented a list of all account balances will be displayed");
         }
 
         private static void ViewAccount()
         {
-            Console.WriteLine("Case 2");
+            Console.WriteLine("When implemented another menu will appear and the user will be presented with a " +
+                "list of 7 accounts to choose from then once the user makes a choice the information for that " +
+                "account will be displayed");
         }
 
         private static void EnterTransaction()
         {
-            Console.WriteLine("Case 3");
+            Console.WriteLine("When implemented the user will be prompted to enter transaction information one " +
+                "field at a time that will be used to build a SQL query to insert the information into the appropriate" +
+                "tables in the database");
         }
 
         private static void ViewReports()
         {
-            Console.WriteLine("Case 4");
+            Console.WriteLine("When implemented a list of reports will be presented and once a selection has been made " +
+                "the report will be displayed");
         }
 
         //Get user input and verify it was correctly entered
