@@ -1,4 +1,31 @@
-﻿using System;
+Double Entry Accounting System
+==============================
+
+## Introduction
+
+Hello, I'm Roy Lovitt with the Microsoft Software and Systems Academy Cloud Application
+Developer Cohort at Embry-Riddle Aeronautical University in Jacksonville Florida.  I'll be 
+presenting the week 3 project Double Entry Accounting System Prototype.  
+
+## Progress to this week
+
+Up to this point we have progressed to the point of displaying 5 menu item choices
+delivered in a C# console appliction.  
+
+Menu items:
+
+  * Check Balances
+  * View Account
+  * Enter Transaction
+  * View Reports
+  * Exit
+
+## Program execution
+
+As the program starts the user is presented with a Windows command line console with Main Menu
+instructions to make a choice from the above 5 options. 
+
+using System;
 
 namespace Mod3Ex3D
 {
@@ -96,6 +123,8 @@ namespace Mod3Ex3D
         }
     }
 }
+
+
 
 
         
