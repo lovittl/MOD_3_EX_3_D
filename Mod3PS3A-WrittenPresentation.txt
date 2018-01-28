@@ -25,6 +25,8 @@ Menu items:
 As the program starts the user is presented with a Windows command line Console Window with Main Menu
 instructions and a list of choices from Menu Items listed above. 
 
+## Line-by-line code execution explanation
+
 code execution begins in the first line of the Main Methond after the opening curly brace.
 the integer variable selection is initialized and assigned a value of 0.
 program control then continues by entering a do loop and the method DisplayMenu() is called.
