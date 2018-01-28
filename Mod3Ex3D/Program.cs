@@ -5,29 +5,32 @@ namespace Mod3Ex3D
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
+            //Initialize variable to control menu selection
             int selection = 0;
+
             do
             {
                 DisplayMenu();
                 selection = ReadInt();
-
+                
+                //Select matching case attribute returned from ReadInt
                 switch (selection)
                 {
                     case 1:
-                        //send control to method checkBalances()
+                        //send control to method CheckBalances()
                         CheckBalances();
                         break;
                     case 2:
-                        //send control to method viewAccount()
+                        //send control to method ViewAccount()
                         ViewAccount();
                         break;
                     case 3:
-                        //send control to method enterTransaction()
+                        //send control to method EnterTransaction()
                         EnterTransaction();
                         break;
                     case 4:
-                        //send control to method viewReports()
+                        //send control to method ViewReports()
                         ViewReports();
                         break;
                 }
@@ -37,7 +40,7 @@ namespace Mod3Ex3D
             while (selection != 5);
 
         }
-
+        //Instructons with instructions for the user to select menu item.
         private static void DisplayMenu()
         {
 
@@ -48,6 +51,7 @@ namespace Mod3Ex3D
 
         }
 
+        //Methods to build out with logic and sql queries to return information
         private static void CheckBalances()
         {
             Console.WriteLine("Case 1");
@@ -68,6 +72,7 @@ namespace Mod3Ex3D
             Console.WriteLine("Case 4");
         }
 
+        //Get user input and verify it was correctly entered
         private static int ReadInt()
         {
             var validInput = false;
